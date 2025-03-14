@@ -58,13 +58,9 @@ Using Docker: docker-compose up -d
 
 Manual Start:
 
-cd backend && npm start  
+cd backend && npm start 
+
 cd frontend && npm run dev  
-
-4. Access the Platform
-
-Frontend: http://localhost:3000,  
-Backend API: http://localhost:4000/api
 
 Testing & CI/CD
 
