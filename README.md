@@ -1,50 +1,27 @@
-Core Functionalities
+Frontend---
+React.js (Next.js), 
+TailwindCSS, 
+Chart.js/D3.js
 
-Real-Time Transactions –
-Automated Financial Analysis – 
-AI-Powered Fraud Detection – 
-Role-Based Access Control (RBAC) – 
-Multi-Currency Support – 
-Event-Driven Architecture
-
-Security & Compliance
-
-OAuth 2.0 & JWT Authentication, 
-AES-256 Encryption for Sensitive Data, 
-API Rate Limiting, CSRF & CORS Protection
-
-Performance & Scalability
-Microservices with Kubernetes & Docker, 
-PostgreSQL (SQL) & Redis (Caching) for high-speed transactions, 
-Auto-Scaling & Load Balancing (AWS/GCP/Azure)
-
-Tech Stack
-Frontend, 
-React.js (Next.js) – SSR & WebSockets, 
-TailwindCSS – Modern UI, 
-Chart.js/D3.js – Real-time financial graphs
-
-Backend
-Node.js (NestJS) – REST & GraphQL APIs, 
-Apache Kafka – Event-driven architecture, 
-PostgreSQL – Secure transaction storage, 
-Redis – Caching for fast queries, 
-WebSockets – Real-time updates
+Backend----
+Node.js (NestJS), 
+Apache Kafka, 
+PostgreSQL, 
+Redis, 
+WebSockets
 
 AI & Fraud Detection
-TensorFlow.js / OpenAI – Anomaly detection, 
-ML-powered transaction monitoring
+TensorFlow.js, 
+ML
 
 Setup & Installation
 
 Prerequisites-----
 Docker & Docker Compose, 
 Node.js & npm/yarn, 
-PostgreSQL & Redis, 
+PostgreSQL & Redis
 
-1. Clone the Repository
-
-git clone https://github.com/your-username/fintech-platform.git
+git clone https://github.com/Satavisha-datta/xnl-21BCE5012-FS-1.git
 cd fintech-platform
 
 2. Install Dependencies
@@ -55,15 +32,3 @@ cd frontend && npm install
 3. Start Services
 
 Using Docker: docker-compose up -d
-
-Manual Start:
-
-cd backend && npm start 
-
-cd frontend && npm run dev  
-
-Testing & CI/CD
-
-Unit Tests: Jest & Cypress
-CI/CD Pipeline: GitHub Actions, 
-Deployment: Kubernetes (AWS/GCP/Azure)
